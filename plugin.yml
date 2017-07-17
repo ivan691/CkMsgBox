@@ -1,0 +1,16 @@
+name: CkMsgBox
+main: CKylin\CkMsgBox
+version: 1.0.0
+api: [1.0.0]
+load: POSTWORLD
+author: CKylin
+commands:
+ msgbox:
+  description: "CkMsgBox Main Commands"
+  aliases: [mb]
+  usage: "/msgbox <cmd>"
+  permission: CkMsgBox.cmd.msgbox
+permissions:
+ CkMsgBox.cmd.msgbox:
+  description: "CkMsgBox Main Commands permissions"
+  default: true
