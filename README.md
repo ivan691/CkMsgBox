@@ -1,0 +1,2 @@
+# CkMsgBox
+A PocketMine Plugin.
