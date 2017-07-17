@@ -83,7 +83,7 @@ class CkMsgBox extends PluginBase implements Listener
         if($cmd=='msgbox'){
             if(empty($args[0])) return false;
             $s->sendMessage($this->getlang('header'));
-            $keys = $this->cfg->get('cmd');
+            $keys = $this->cfg->get('cmds');
             $name = $s->getName();
             $opt = $args[0];
             if($opt=='check'||$opt=='c'||in_array($opt,$keys['check'])){
